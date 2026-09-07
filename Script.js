@@ -12,7 +12,7 @@ valid=false;
 }
 
 if(pass.length<15){
-document.getElementById("passError").innerHTML="Password must be at least 8 characters.";
+document.getElementById("passError").innerHTML="Password must be at least 15characters.";
 valid=false;
 }
 
