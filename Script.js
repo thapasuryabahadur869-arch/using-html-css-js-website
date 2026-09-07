@@ -11,7 +11,7 @@ document.getElementById("emailError").innerHTML="Email must contain @.";
 valid=false;
 }
 
-if(pass.length<8){
+if(pass.length<15){
 document.getElementById("passError").innerHTML="Password must be at least 8 characters.";
 valid=false;
 }
